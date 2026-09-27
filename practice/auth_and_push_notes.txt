@@ -1,0 +1,16 @@
+Student Name: Reuben Idan
+GitHub Username: reuben-idan
+
+Authentication method I used: PAT
+
+Why I chose this method:
+I used a Personal Access Token because this repository remote uses HTTPS, not an SSH URL. A PAT lets Git prove who I am when I push over HTTPS, which matches how the repo was cloned. I already had HTTPS set up on this machine, so PAT was the simpler choice than switching remotes to SSH.
+
+One security habit I must follow with this method:
+I must treat the token like a password and never paste it into files, screenshots, or chat. If a token leaks, I should revoke it on GitHub right away and create a new one. I should also give the token only the scopes it needs, such as repo access, instead of full account power.
+
+Difference between a commit and a push:
+A commit records a snapshot in my local Git history on this computer. Other people cannot see that commit until it is sent to a shared remote. A push uploads my local commits to GitHub so the remote branch matches what I have locally. If I commit but forget to push, GitHub stays behind, and teammates or graders will not see the new files. Commit is local history; push is sharing that history.
+
+My repository URL:
+https://github.com/reuben-idan/SE103-Week4
