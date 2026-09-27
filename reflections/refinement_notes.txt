@@ -1,0 +1,10 @@
+Student Name: Reuben Idan
+
+Which phrases were too vague:
+"Check them" did not say what should be checked or what rule should be used. "Find who failed" did not define the failing score or explain how to keep track of the results. "Show result" did not state what should happen when no score fails.
+
+How I made each vague part specific:
+I defined the input as a list of student scores and stated that a score below 50 is failing. I added a loop so every score is checked once. I used an empty list named failingScores to store only scores that meet the failing rule. I added a decision after the loop to display either the failing scores or a clear message when the list is empty.
+
+Why refinement matters before coding:
+Refinement removes assumptions that could lead to the wrong program behavior. It makes the order of decisions and repeated actions clear before writing code. Clear pseudocode is easier to test with examples and explain to another person.

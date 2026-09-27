@@ -1,0 +1,28 @@
+Student Name: Reuben Idan
+
+Problem:
+Find which scores failed.
+
+Input:
+a list of student scores
+
+Output:
+the failing scores, or a message if no one failed
+
+Failing rule:
+score < 50
+
+Pseudocode:
+START
+CREATE an empty list called failingScores
+FOR EACH score IN the list of student scores
+    IF score < 50 THEN
+        ADD score TO failingScores
+    ENDIF
+ENDFOR
+IF failingScores is empty THEN
+    DISPLAY "No failing scores"
+ELSE
+    DISPLAY failingScores
+ENDIF
+END
