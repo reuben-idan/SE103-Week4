@@ -1,0 +1,15 @@
+Student Name: Reuben Idan
+GitHub Username: reuben-idan
+Repository: SE103-Week4
+Repository URL: https://github.com/reuben-idan/SE103-Week4
+
+What I understand better about algorithms now:
+I understand that an algorithm needs a clear input, ordered steps, and an expected output. Decisions allow an algorithm to respond differently when conditions change. Loops are useful when the same check must be repeated for every item in a list. Edge cases, such as an empty list, must be handled so the algorithm gives a useful result instead of failing silently. Writing pseudocode first makes the logic easier to review before turning it into code.
+
+How tracing changed my confidence:
+Tracing lets me follow each step of an algorithm with real sample data. It showed me how a counter changes only when a number is greater than 10. It also confirmed that a search can stop when it finds a matching name. Checking the empty-list case made me more confident that the algorithms handle unusual inputs.
+
+One pseudocode habit I will keep:
+I will state the input and output before I write the steps. I will include decisions and edge cases explicitly instead of assuming they are understood. I will trace an example before I begin coding.
+
+All required files are on main: Yes
