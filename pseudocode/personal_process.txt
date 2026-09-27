@@ -1,0 +1,34 @@
+Student Name: Reuben Idan
+
+Problem:
+Prepare and submit a completed coursework assignment before its deadline. The process makes sure the work is ready and that the course portal records the submission.
+
+Input:
+- a completed assignment file
+- an internet connection
+- course portal login details
+
+Output:
+A confirmation that the assignment was submitted, or a message explaining what needs to be fixed.
+
+Edge Case Handled:
+The portal rejects the file because its format is unsupported or the upload does not finish.
+
+Pseudocode:
+START
+CHECK that the assignment file is complete
+IF the assignment file is missing or incomplete THEN
+    DISPLAY "Finish the assignment before submitting"
+ELSE
+    SIGN IN to the course portal
+    UPLOAD the assignment file
+    IF the portal shows a submission confirmation THEN
+        DISPLAY "Assignment submitted successfully"
+    ELSE
+        DISPLAY "Upload failed; check the file format and try again"
+    ENDIF
+ENDIF
+END
+
+Why this is clear enough to follow:
+The process names the materials needed before submission begins. It separates checking the assignment from uploading it, so the steps happen in a sensible order. Each decision states what to do when the work is not ready or when the upload fails. The successful outcome is also clear because the portal must show a confirmation.
