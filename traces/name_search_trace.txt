@@ -1,0 +1,21 @@
+Student Name: Reuben Idan
+Name list: ["Ama", "Kofi", "Yaw"]
+
+Trace 1 - target "Kofi":
+1. The name list is not empty, so set found to false.
+2. Compare "Ama" with "Kofi". They do not match.
+3. Compare "Kofi" with "Kofi". They match, so set found to true and exit the loop.
+4. Since found is true, display "Found".
+Result: Found
+
+Trace 2 - target "Efua":
+1. The name list is not empty, so set found to false.
+2. Compare "Ama" with "Efua". They do not match.
+3. Compare "Kofi" with "Efua". They do not match.
+4. Compare "Yaw" with "Efua". They do not match.
+5. The loop ends with found set to false, so display "Not found".
+Result: Not found
+
+Empty list input: []
+Empty list result:
+Error: list is empty

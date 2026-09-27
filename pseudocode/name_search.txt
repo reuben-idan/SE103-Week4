@@ -1,0 +1,32 @@
+Student Name: Reuben Idan
+
+Problem:
+Search a list of names for one target name and report whether it was found.
+
+Input:
+- a list of names
+- one target name
+
+Output:
+- "Found" or "Not found"
+- or an error if the list is empty
+
+Pseudocode:
+START
+IF the list of names is empty THEN
+    DISPLAY "Error: list is empty"
+ELSE
+    SET found TO false
+    FOR EACH name IN the list of names
+        IF name = target name THEN
+            SET found TO true
+            EXIT the loop
+        ENDIF
+    ENDFOR
+    IF found = true THEN
+        DISPLAY "Found"
+    ELSE
+        DISPLAY "Not found"
+    ENDIF
+ENDIF
+END
