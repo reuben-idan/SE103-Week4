@@ -3,13 +3,13 @@ GitHub Username: reuben-idan
 Repository: SE103-Week4
 Repository URL: https://github.com/reuben-idan/SE103-Week4
 
-What I understand better about algorithms now:
-I understand that an algorithm needs a clear input, ordered steps, and an expected output. Decisions allow an algorithm to respond differently when conditions change. Loops are useful when the same check must be repeated for every item in a list. Edge cases, such as an empty list, must be handled so the algorithm gives a useful result instead of failing silently. Writing pseudocode first makes the logic easier to review before turning it into code.
+What a pull request asks teammates to do:
+A pull request asks teammates to review a set of commits on a branch and decide whether those changes should be merged into another branch, usually main. They can read the description, inspect the diff, and leave comments before the code becomes part of the shared history. Merging is the step that accepts the work after that review.
 
-How tracing changed my confidence:
-Tracing lets me follow each step of an algorithm with real sample data. It showed me how a counter changes only when a number is greater than 10. It also confirmed that a search can stop when it finds a matching name. Checking the empty-list case made me more confident that the algorithms handle unusual inputs.
+Why branches and pull requests are used together:
+A branch holds the work in isolation, and a pull request is the conversation and merge request for that branch. Without a branch, there is nothing separate to review. Without a pull request, the branch might be merged with no description, no discussion, and no clear record of what landed on main.
 
-One pseudocode habit I will keep:
-I will state the input and output before I write the steps. I will include decisions and edge cases explicitly instead of assuming they are understood. I will trace an example before I begin coding.
+One thing that confused me in this project and how I solved it:
+Empty folders did not appear on GitHub after I created practice and reflections locally, because Git only tracks files. I solved that by adding files inside those folders, including .gitkeep at first and then the real notes files. I also had to remember that a commit is only local until I push, so I checked GitHub after each push. Switching to add-reflection, pushing with -u, and then pulling main after the merge kept the local and remote copies in sync.
 
 All required files are on main: Yes
