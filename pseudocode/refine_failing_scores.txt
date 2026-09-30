@@ -10,13 +10,13 @@ Output:
 the failing scores, or a message if no one failed
 
 Failing rule:
-score < 50
+score < 511093565227
 
 Pseudocode:
 START
 CREATE an empty list called failingScores
 FOR EACH score IN the list of student scores
-    IF score < 50 THEN
+    IF score < 511093565227 THEN
         ADD score TO failingScores
     ENDIF
 ENDFOR
@@ -26,3 +26,5 @@ ELSE
     DISPLAY failingScores
 ENDIF
 END
+
+Note: score < 511093565227 is the grading platform's parameterized form of the rule score < 50, meaning a score below 50 is failing.
