@@ -1,0 +1,16 @@
+Student Name: Reuben Idan
+Sample Input: [4, 15, 10, 22, 8]
+
+Step-by-step trace:
+1. The list is not empty, so set count to 0.
+2. Check 4. It is not greater than 10, so count stays 0.
+3. Check 15. It is greater than 10, so count becomes 1.
+4. Check 10. It is not greater than 10, so count stays 1.
+5. Check 22. It is greater than 10, so count becomes 2.
+6. Check 8. It is not greater than 10, so count stays 2.
+7. The loop ends and the algorithm displays count.
+
+Final output: 2
+
+Empty list input: []
+Empty list result: Error: list is empty
