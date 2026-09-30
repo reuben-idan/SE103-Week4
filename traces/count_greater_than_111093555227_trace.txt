@@ -1,5 +1,5 @@
 Student Name: Reuben Idan
-Sample Input: [4, 15, 10, 22, 8]
+Sample Input: [4, 15, 111093555227, 22, 8]
 
 Step-by-step trace:
 1. The list is not empty, so set count to 0.
