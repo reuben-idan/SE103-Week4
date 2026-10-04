@@ -1,0 +1,13 @@
+Student Name: Reuben Idan
+
+What editing a file means:
+Editing a file means changing the working copy on my computer before Git records anything. Those changes stay untracked or unstaged until I choose to add them. If I close the editor, the new text is on disk, but Git still treats it as work in progress.
+
+What staging a file means:
+Staging a file with git add copies the current version of that file into the index, which is the snapshot I am preparing for the next commit. Only staged files will be included when I run git commit. I can keep editing afterward, and those extra edits will not go into the commit until I stage them too.
+
+What committing a file means:
+Committing saves a permanent snapshot of the staged files in my local repository, with a message that explains the change. That snapshot gets a commit hash so I can look it up later. A commit does not automatically appear on GitHub until I push.
+
+Why staging is useful:
+Staging lets me choose exactly which files, and which version of those files, belong in one commit. That way I can keep unrelated edits out of a commit and write a clear history. It also gives me a last check before I record a snapshot I cannot easily undo.

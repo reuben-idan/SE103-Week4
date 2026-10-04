@@ -1,0 +1,10 @@
+Student Name: Reuben Idan
+
+Why teams use branches:
+Teams use branches so people can work on features or fixes without changing the shared main line until the work is ready. Each branch is a separate line of commits, so unfinished code does not break what everyone else is using. Reviewers can look at one branch at a time and discuss the diff before it is merged. Branches also make it easier to try an idea and throw it away if it fails, without rewriting main. In this project, add-reflection holds the reflection notes until they are reviewed and merged.
+
+Why add-reflection is a better branch name than test or changes:
+The name add-reflection describes the actual work on the branch, which is adding a reflection file. Names like test or changes are vague, so a teammate cannot tell what the branch is for. A clear name also makes the later pull request easier to scan in the branch list.
+
+What stays protected when I work on a branch instead of main:
+Main stays at the last agreed snapshot, so the default branch does not pick up half-finished files. If I make a mistake on add-reflection, I can fix or delete that branch without rewriting the history that GitHub already shows on main. Classmates and graders who clone main still see a stable set of files until the pull request is merged.
