@@ -1,4 +1,0 @@
-Full Name: Reuben Idan
-GitHub Username: reuben-idan
-Date Started: 27/09/2026
-Auth Method: PAT
